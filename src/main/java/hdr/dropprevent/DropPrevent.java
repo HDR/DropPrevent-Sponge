@@ -6,8 +6,10 @@ import org.spongepowered.api.event.cause.entity.spawn.EntitySpawnCause;
 import org.spongepowered.api.event.filter.cause.Root;
 import org.spongepowered.api.event.item.inventory.DropItemEvent;
 import org.spongepowered.api.plugin.Plugin;
+import org.spongepowered.api.text.Text;
+import org.spongepowered.api.text.format.TextColors;
 
-@Plugin(id = "dropprevent", name = "DropPrevent", version = "0.2")
+@Plugin(id = "dropprevent", name = "DropPrevent", version = "0.3")
 public class DropPrevent {
 
     @Listener
@@ -16,6 +18,8 @@ public class DropPrevent {
             Player player = (Player) src.getEntity();
             if(player.hasPermission("dropprevent.restrict")){
                 event.setCancelled(true);
+                Text dropPreventText = Text.builder("You're not allowed to drop items!").color(TextColors.RED).build();
+                player.sendMessage(dropPreventText);
             }
         }
     }
