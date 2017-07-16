@@ -9,7 +9,7 @@ Usage: See permission node below.
 
 Permission  | Description
 ------------- | -------------
-dropprevent.restrict  | Players with this premission are unable to drop items.
+dropprevent.restrict  | Players with this permission are unable to drop items.
 
 
 ## Current Bugs
