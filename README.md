@@ -1,6 +1,8 @@
 # DropPrevent
 An extremely simple plugin to prevent users from dropping items.
 
+![](http://i.imgur.com/uWtGg3z.png)
+
 Usage: See permission node below.
 
 ## Permission
