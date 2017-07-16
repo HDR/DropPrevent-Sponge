@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="DropPrevent_main" target="1.8" />
+      <module name="DropPrevent_test" target="1.8" />
+      <module name="hdr.glow_main" target="1.8" />
+      <module name="hdr.glow_test" target="1.8" />
+      <module name="me._main" target="1.8" />
+      <module name="me._test" target="1.8" />
+      <module name="me.hdr.dropprevent_main" target="1.8" />
+      <module name="me.hdr.dropprevent_test" target="1.8" />
+      <module name="me.hdr_main" target="1.8" />
+      <module name="me.hdr_test" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

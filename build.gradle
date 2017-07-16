@@ -1,0 +1,25 @@
+plugins {
+    id 'org.spongepowered.plugin' version '0.8.1'
+}
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+group = 'me.hdr'
+version = '0.2'
+
+sponge {
+    plugin {
+        id = 'dropprevent'
+        meta {
+            name = "DropPrevent"
+            version = rootProject.version
+            authors = ["HDR"]
+            description = "Prevents players from dropping items"
+        }
+    }
+}
+
+dependencies {
+    compile 'org.spongepowered:spongeapi:6.0.0'
+}
